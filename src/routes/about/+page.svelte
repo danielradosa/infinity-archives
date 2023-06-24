@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>About</title>
+	<title>Infinity Archives | About</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
 
@@ -7,20 +7,21 @@
 	<h1>About this app</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
-
-	<pre>npm create svelte@latest</pre>
-
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
+		This app serves as a public library which contains a collection of resources that I find
+		interesting and useful. It is a work in progress and will be updated regularly.
 	</p>
 
 	<p>
-		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-		using it with JavaScript disabled!
+		The cost of using this app is 0€. If you want to support me, you can do so by donating to my
+		crypto wallets below.
 	</p>
+
+	<dl>
+		<dt>BTC -- 1DDqvxDEuXwpNBaVHD3cDQZxbVvmKVd9vj</dt>
+		<dt>ETH -- danielradosa.eth || 0xc7F47994b9A1Fd78bC9e19F94675f7FA70b634B7</dt>
+	</dl>
+
+	<code>
+		* App was crafted with the SvelteKit.
+	</code>
 </div>

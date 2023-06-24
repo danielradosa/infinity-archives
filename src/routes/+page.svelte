@@ -1,7 +1,5 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import welcome from '$lib/images/logo.png';
 </script>
 
 <svelte:head>
@@ -13,19 +11,17 @@
 	<h1>
 		<span class="welcome">
 			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
+				<source srcset={welcome} type="image/png" />
+				<img src={welcome} alt="Welcome" />
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app
+		Welcome to<br />the Infinity Archives
 	</h1>
 
 	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
+		to see resources, view the <strong>Library</strong> page
 	</h2>
-
-	<Counter />
 </section>
 
 <style>
